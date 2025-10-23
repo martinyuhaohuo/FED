@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fed"
+dynamic = ["version"]
+description = "A python package for GDP analysis"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Yuhao Huo", email = "martinyuhaohuo@gmail.com"},
+]
+maintainers = [
+  {name = "Yuhao Huo", email = "martinyuhaohuo@gmail.com"}
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib"
+]
+
+[tool.setuptools_scm]
+write_to = "fed/version.py"
+
+[tool.setuptools.packages.find]
+where = ["."]

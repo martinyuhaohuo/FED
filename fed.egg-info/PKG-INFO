@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: fed
+Version: 0.0.0
+Summary: A python package for GDP analysis
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
